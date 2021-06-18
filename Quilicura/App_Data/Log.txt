@@ -1,0 +1,234 @@
+********** 09/04/2018 14:38:25 **********
+Exception Type: Source: environ: INTEGRACION
+Stack Trace: 
+********** 09/04/2018 14:38:25 **********
+Exception Type: Source: public cert: Y:\SERVER3\dev_Importadora Santa Maria\Project Quilicura\Quilicura\Content\597020000541\tbk.pem
+Stack Trace: 
+********** 09/04/2018 14:38:25 **********
+Exception Type: Source: webpay cert: Y:\SERVER3\dev_Importadora Santa Maria\Project Quilicura\Quilicura\Content\597020000541\597020000541.pfx
+Stack Trace: 
+********** 09/04/2018 14:38:25 **********
+Exception Type: Source: passs: transbank123
+Stack Trace: 
+********** 09/04/2018 14:38:25 **********
+Exception Type: Source: host: localhost:44358
+Stack Trace: 
+********** 09/04/2018 14:38:25 **********
+Exception Type: Source: selfURL: /Transbank/TBKNormal
+Stack Trace: 
+********** 09/04/2018 14:38:25 **********
+Exception Type: Source: sample url: https://localhost:44358/Transbank/TBKNormal
+Stack Trace: 
+********** 09/04/2018 14:38:34 **********
+Exception Type: Source: environ: INTEGRACION
+Stack Trace: 
+********** 09/04/2018 14:38:34 **********
+Exception Type: Source: public cert: Y:\SERVER3\dev_Importadora Santa Maria\Project Quilicura\Quilicura\Content\597020000541\tbk.pem
+Stack Trace: 
+********** 09/04/2018 14:38:34 **********
+Exception Type: Source: webpay cert: Y:\SERVER3\dev_Importadora Santa Maria\Project Quilicura\Quilicura\Content\597020000541\597020000541.pfx
+Stack Trace: 
+********** 09/04/2018 14:38:34 **********
+Exception Type: Source: passs: transbank123
+Stack Trace: 
+********** 09/04/2018 14:38:34 **********
+Exception Type: Source: host: localhost:44358
+Stack Trace: 
+********** 09/04/2018 14:38:34 **********
+Exception Type: Source: selfURL: /Transbank/TBKNormal
+Stack Trace: 
+********** 09/04/2018 14:38:34 **********
+Exception Type: Source: sample url: https://localhost:44358/Transbank/TBKNormal
+Stack Trace: 
+********** 09/04/2018 14:38:53 **********
+Exception Type: Source: environ: INTEGRACION
+Stack Trace: 
+********** 09/04/2018 14:38:53 **********
+Exception Type: Source: public cert: Y:\SERVER3\dev_Importadora Santa Maria\Project Quilicura\Quilicura\Content\597020000541\tbk.pem
+Stack Trace: 
+********** 09/04/2018 14:38:53 **********
+Exception Type: Source: webpay cert: Y:\SERVER3\dev_Importadora Santa Maria\Project Quilicura\Quilicura\Content\597020000541\597020000541.pfx
+Stack Trace: 
+********** 09/04/2018 14:38:53 **********
+Exception Type: Source: passs: transbank123
+Stack Trace: 
+********** 09/04/2018 14:38:53 **********
+Exception Type: Source: host: localhost:44358
+Stack Trace: 
+********** 09/04/2018 14:38:53 **********
+Exception Type: Source: selfURL: /Transbank/TBKNormal
+Stack Trace: 
+********** 09/04/2018 14:38:53 **********
+Exception Type: Source: sample url: https://localhost:44358/Transbank/TBKNormal
+Stack Trace: 
+********** 09/04/2018 14:39:48 **********
+Exception Type: Source: environ: INTEGRACION
+Stack Trace: 
+********** 09/04/2018 14:39:48 **********
+Exception Type: Source: public cert: Y:\SERVER3\dev_Importadora Santa Maria\Project Quilicura\Quilicura\Content\597020000541\tbk.pem
+Stack Trace: 
+********** 09/04/2018 14:39:48 **********
+Exception Type: Source: webpay cert: Y:\SERVER3\dev_Importadora Santa Maria\Project Quilicura\Quilicura\Content\597020000541\597020000541.pfx
+Stack Trace: 
+********** 09/04/2018 14:39:48 **********
+Exception Type: Source: passs: transbank123
+Stack Trace: 
+********** 09/04/2018 14:39:48 **********
+Exception Type: Source: host: localhost:44358
+Stack Trace: 
+********** 09/04/2018 14:39:48 **********
+Exception Type: Source: selfURL: /Transbank/TBKNormal
+Stack Trace: 
+********** 09/04/2018 14:39:48 **********
+Exception Type: Source: sample url: https://localhost:44358/Transbank/TBKNormal
+Stack Trace: 
+********** 09/04/2018 18:37:02 **********
+Exception Type: Source: environ: INTEGRACION
+Stack Trace: 
+********** 09/04/2018 18:37:02 **********
+Exception Type: Source: public cert: -----BEGINCERTIFICATE-----MIIDujCCAqICCQCZ42cY33KRTzANBgkqhkiG9w0BAQsFADCBnjELMAkGA1UEBhMCQ0wxETAPBgNVBAgMCFNhbnRpYWdvMRIwEAYDVQQKDAlUcmFuc2JhbmsxETAPBgNVBAcMCFNhbnRpYWdvMRUwEwYDVQQDDAw1OTcwMjAwMDA1NDExFzAVBgNVBAsMDkNhbmFsZXNSZW1vdG9zMSUwIwYJKoZIhvcNAQkBFhZpbnRlZ3JhZG9yZXNAdmFyaW9zLmNsMB4XDTE2MDYyMjIxMDkyN1oXDTI0MDYyMDIxMDkyN1owgZ4xCzAJBgNVBAYTAkNMMREwDwYDVQQIDAhTYW50aWFnbzESMBAGA1UECgwJVHJhbnNiYW5rMREwDwYDVQQHDAhTYW50aWFnbzEVMBMGA1UEAwwMNTk3MDIwMDAwNTQxMRcwFQYDVQQLDA5DYW5hbGVzUmVtb3RvczElMCMGCSqGSIb3DQEJARYWaW50ZWdyYWRvcmVzQHZhcmlvcy5jbDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANApVXB/EQtbviqQj1J82EiHJslyPO0RLAZEM2gNUCXuMPwe4OirylfQ2qn5zYTL3ff8qZhn9EQ0D4ZQWxpc8pis9cYdJUAQ/vTGa4PCbvP3dZNKSG9UC0A54UYEdk9eJ4F6T+DyECrauw7HRwcmxVOb7wClanR7yJmRc6nsW2Y11scYU/v7BnA+FbOu933Ogfl49lKyhe0MleaTA6tBwgi0zJmn1gJjax8peopkDPm6gtdoJxBABJKyYkjuj/9tZvYgybOSkGp6SW8tGhlvJqHGERwzB2Y7U4iD9PiQCYC/SrB/q13ZNm0+2nq3u08ziv2xMIZGBF5zDLf+ub1egH8CAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAdgNpIS2NZFx5PoYwJZf8fazeNmKQg73seDGuP8d8w/CZf1Py/gsJFNbh4CEySWZRCzlOKxzmtPTmyPdyhObjMA8EAdps9DtgiN2ITSF1HUFmhMjI5V7U2L9LyEdpUaieYyPBfxiicdWz2YULVuOYDJHRn05jlj/EjYa5bLKs/yggYiqMkZdIX8NiLL6ZTERIvBa6azDKs6yDsCsnE1M5tzQIVVEkZtEfil6E1tz8v3yLZapLt+8jmPq1RCSx3Zh4fUkxBTpUW/9SWUNEXbKK7bB3zfB3kGE55K5nxHKfQlrqdHLcIo+vdShATwYnmhUkGxUnM9qoCDlB8lYu3rFi9w==-----ENDCERTIFICATE-----
+Stack Trace: 
+********** 09/04/2018 18:37:02 **********
+Exception Type: Source: webpay cert: -----BEGINCERTIFICATE-----MIIDKTCCAhECBFZl7uIwDQYJKoZIhvcNAQEFBQAwWTELMAkGA1UEBhMCQ0wxDjAMBgNVBAgMBUNoaWxlMREwDwYDVQQHDAhTYW50aWFnbzEMMAoGA1UECgwDa2R1MQwwCgYDVQQLDANrZHUxCzAJBgNVBAMMAjEwMB4XDTE1MTIwNzIwNDEwNloXDTE4MDkwMjIwNDEwNlowWTELMAkGA1UEBhMCQ0wxDjAMBgNVBAgMBUNoaWxlMREwDwYDVQQHDAhTYW50aWFnbzEMMAoGA1UECgwDa2R1MQwwCgYDVQQLDANrZHUxCzAJBgNVBAMMAjEwMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAizJUWTDC7nfP3jmZpWXFdG9oKyBrU0Bdl6fKif9a1GrwevThsU5Dq3wiRfYvomStNjFDYFXOs9pRIxqX2AWDybjAX/+bdDTVbM+xXllA9stJY8s7hxAvwwO7IEuOmYDpmLKP7J+4KkNH7yxsKZyLL9trG3iSjV6Y6SO5EEhUsdxoJFAow/h7qizJW0kOaWRcljf7kpqJAL3AadIuqV+hlf+Ts/64aMsfSJJA6xdbdp9ddgVFoqUl1M8vpmd4glxlSrYmEkbYwdI9uF2d6bAeaneBPJFZr6KQqlbbrVyeJZqmMlEPy0qPco1TIxrdEHlXgIFJLyyMRAyjX9i4l70xjwIDAQABMA0GCSqGSIb3DQEBBQUAA4IBAQBn3tUPS6e2USgMrPKpsxU4OTfW64+mfD6QrVeBOh81f6aGHa67sMJn8FE/cG6jrUmX/FP1/Cpbpvkm5UUlFKpgaFfHv+KgCpEvgcRIv/OeIi6Jbuu3NrPdGPwzYkzlOQnmgio5RGb6GSs+OQ0mUWZ9J1+YtdZc+xTga0x7nsCT5xNcUXsZKhyjoKhXtxJm3eyB3ysLNyuL/RHy/EyNEWiUhvt1SIePnW+Y4/cjQWYwNqSqMzTSW9TP2QR2bX/W2H6ktRcLsgBK9mq7lE36p3q6c9DtZJE+xfA4NGCYWM9hd8pbusnoNO7AFxJZOuuvLZI7JvD7YLhPvCYKry7N6x3l-----ENDCERTIFICATE-----
+Stack Trace: 
+********** 09/04/2018 18:37:02 **********
+Exception Type: Source: passs: -----BEGINRSAPRIVATEKEY-----MIIEpQIBAAKCAQEA0ClVcH8RC1u+KpCPUnzYSIcmyXI87REsBkQzaA1QJe4w/B7g6KvKV9DaqfnNhMvd9/ypmGf0RDQPhlBbGlzymKz1xh0lQBD+9MZrg8Ju8/d1k0pIb1QLQDnhRgR2T14ngXpP4PIQKtq7DsdHBybFU5vvAKVqdHvImZFzqexbZjXWxxhT+/sGcD4Vs673fc6B+Xj2UrKF7QyV5pMDq0HCCLTMmafWAmNrHyl6imQM+bqC12gnEEAEkrJiSO6P/21m9iDJs5KQanpJby0aGW8mocYRHDMHZjtTiIP0+JAJgL9KsH+rXdk2bT7aere7TzOK/bEwhkYEXnMMt/65vV6AfwIDAQABAoIBAHnIlOn6DTi99eXlKVSzIb5dA747jZWMxFruL70ifM+UKSh30FGPoBP8ZtGnCiw1ManSMk6uEuSMKMEF5iboVi4okqnTh2WSC/ec1m4BpPQqxKjlfrdTTjnHIxrZpXYNucMwkeci93569ZFR2SY/8pZV1mBkZoG7ocLmq+qwE1EaBEL/sXMvuF/h08nJ71I4zcclpB8kN0yFrBCW7scqOwTLiob2mmU2bFHOyyjTkGOlEsBQxhtVwVEt/0AFH/ucmMTP0vrKOA0HkhxMoeR4k2z0qwTzZKXuEZtsau8a/9B3S3YcgoSOhRP/VdY1WL5hWDHeK8q1Nfq2eETXjnQ4zjECgYEA7z2/biWe9nDyYDZM7SfHy1xF5Q3ocmv14NhTbt8iDlz2LsZ2JcPnEMV++m88F3PYdFUOp4Zuw+eLJSrBqfuPYrTVNH0v/HdTqTS70R2YZCFb9g0ryaHVTRwYovu/oQMV4LBSzrwdtCrcfUZDtqMYmmZfEkdjCWCEpEi36nlG0JMCgYEA3r49o+soFIpDqLMei1tF+Ah/rm8oY5f4Wc82kmSgoPFCWnQEIW36i/GRaoQYsBp4louevyPuW+BzoZpVcJDuBmHY3UOLKr4ZldOn2KIj6sCQZ1mNKo5WuZ4YFeL5uyp9HvioTCPGeXghG0uIk4emSwolJVSbKSRi6SPsiANff+UCgYEAvNMRmlAbLQtsYb+565xwNvO3PthBVL4dLL/Q6js21/tLWxPNAHWklDosxGCzHxeSCg9wJ40VM4425rjebdldDF0Jwgnkq/FKmMxESQKA2tbxjDxNCTGv9tJsJ4dnch/LTrIcSYt0LlV9/WpN24LS0lpmQzkQ07/YMQosDuZ1m/0CgYEAu9oHlEHTmJcO/qypmu/ML6XDQPKARpY5Hkzygj4ZdgJianSjsynUfsepUwK663I3twdjR2JfON8vxd+qJPgltf45bknziYWvgDtzt/Duh6IFZxQQSQ6oN30MZRD6eo4X3dHp5eTaE0Fr8mAefAWQCoMw1q3m+ai1PlhMuFzX4r0CgYEArx4TAq+Z4crVCdABBzAZ7GvvAXdxvBo0AhD9IddSWVTCza972wta5J2rrS/ye9Tfu5j2IbTHaLDz14mwMXr1S4L39UX/NifLc93KHie/yjycCuu4uqNoMtdweTnQt73lN2cnYedRUhw9UTfPzYu7jdXCUAyAD4IEjFQrswk2x04=-----ENDRSAPRIVATEKEY-----
+Stack Trace: 
+********** 09/04/2018 18:37:02 **********
+Exception Type: Source: host: localhost:44358
+Stack Trace: 
+********** 09/04/2018 18:37:02 **********
+Exception Type: Source: selfURL: /Transbank/TBKNormal
+Stack Trace: 
+********** 09/04/2018 18:37:02 **********
+Exception Type: Source: sample url: https://localhost:44358/Transbank/TBKNormal
+Stack Trace: 
+********** 09/04/2018 18:39:53 **********
+Exception Type: Source: environ: INTEGRACION
+Stack Trace: 
+********** 09/04/2018 18:39:53 **********
+Exception Type: Source: public cert: Y:\SERVER3\dev_Importadora Santa Maria\Project Quilicura\Quilicura\Content\597020000541\tbk.pem
+Stack Trace: 
+********** 09/04/2018 18:39:53 **********
+Exception Type: Source: webpay cert: Y:\SERVER3\dev_Importadora Santa Maria\Project Quilicura\Quilicura\Content\597020000541\597020000541.pfx
+Stack Trace: 
+********** 09/04/2018 18:39:53 **********
+Exception Type: Source: passs: transbank123
+Stack Trace: 
+********** 09/04/2018 18:39:53 **********
+Exception Type: Source: host: localhost:44358
+Stack Trace: 
+********** 09/04/2018 18:39:53 **********
+Exception Type: Source: selfURL: /Transbank/TBKNormal
+Stack Trace: 
+********** 09/04/2018 18:39:53 **********
+Exception Type: Source: sample url: https://localhost:44358/Transbank/TBKNormal
+Stack Trace: 
+********** 09/04/2018 18:41:11 **********
+Exception Type: Source: environ: INTEGRACION
+Stack Trace: 
+********** 09/04/2018 18:41:11 **********
+Exception Type: Source: public cert: Y:\SERVER3\dev_Importadora Santa Maria\Project Quilicura\Quilicura\Content\597020000541\tbk.pem
+Stack Trace: 
+********** 09/04/2018 18:41:11 **********
+Exception Type: Source: webpay cert: Y:\SERVER3\dev_Importadora Santa Maria\Project Quilicura\Quilicura\Content\597020000541\597020000541.pfx
+Stack Trace: 
+********** 09/04/2018 18:41:11 **********
+Exception Type: Source: passs: transbank123
+Stack Trace: 
+********** 09/04/2018 18:41:11 **********
+Exception Type: Source: host: localhost:44358
+Stack Trace: 
+********** 09/04/2018 18:41:11 **********
+Exception Type: Source: selfURL: /Transbank/TBKNormal
+Stack Trace: 
+********** 09/04/2018 18:41:11 **********
+Exception Type: Source: sample url: https://localhost:44358/Transbank/TBKNormal
+Stack Trace: 
+********** 09/04/2018 19:23:59 **********
+Exception Type: Source: environ: INTEGRACION
+Stack Trace: 
+********** 09/04/2018 19:23:59 **********
+Exception Type: Source: public cert: Y:\SERVER3\dev_Importadora Santa Maria\Project Quilicura\Quilicura\Content\597020000541\tbk.pem
+Stack Trace: 
+********** 09/04/2018 19:23:59 **********
+Exception Type: Source: webpay cert: Y:\SERVER3\dev_Importadora Santa Maria\Project Quilicura\Quilicura\Content\597020000541\597020000541.pfx
+Stack Trace: 
+********** 09/04/2018 19:23:59 **********
+Exception Type: Source: passs: transbank123
+Stack Trace: 
+********** 09/04/2018 19:23:59 **********
+Exception Type: Source: host: localhost:44358
+Stack Trace: 
+********** 09/04/2018 19:23:59 **********
+Exception Type: Source: selfURL: /Transbank/TBKNormal
+Stack Trace: 
+********** 09/04/2018 19:23:59 **********
+Exception Type: Source: sample url: https://localhost:44358/Transbank/TBKNormal
+Stack Trace: 
+********** 10/04/2018 9:31:55 **********
+Exception Type: Source: environ: INTEGRACION
+Stack Trace: 
+********** 10/04/2018 9:31:55 **********
+Exception Type: Source: public cert: Y:\SERVER3\dev_Importadora Santa Maria\Project Quilicura\Quilicura\Content\597020000541\tbk.pem
+Stack Trace: 
+********** 10/04/2018 9:31:55 **********
+Exception Type: Source: webpay cert: Y:\SERVER3\dev_Importadora Santa Maria\Project Quilicura\Quilicura\Content\597020000541\597020000541.pfx
+Stack Trace: 
+********** 10/04/2018 9:31:55 **********
+Exception Type: Source: passs: transbank123
+Stack Trace: 
+********** 10/04/2018 9:31:55 **********
+Exception Type: Source: host: localhost:44358
+Stack Trace: 
+********** 10/04/2018 9:31:55 **********
+Exception Type: Source: selfURL: /Transbank/TBKNormal
+Stack Trace: 
+********** 10/04/2018 9:31:55 **********
+Exception Type: Source: sample url: https://localhost:44358/Transbank/TBKNormal
+Stack Trace: 
+********** 10/04/2018 9:40:57 **********
+Exception Type: Source: environ: INTEGRACION
+Stack Trace: 
+********** 10/04/2018 9:40:57 **********
+Exception Type: Source: public cert: Y:\SERVER3\dev_Importadora Santa Maria\Project Quilicura\Quilicura\Content\597020000541\tbk.pem
+Stack Trace: 
+********** 10/04/2018 9:40:57 **********
+Exception Type: Source: webpay cert: Y:\SERVER3\dev_Importadora Santa Maria\Project Quilicura\Quilicura\Content\597020000541\597020000541.pfx
+Stack Trace: 
+********** 10/04/2018 9:40:57 **********
+Exception Type: Source: passs: transbank123
+Stack Trace: 
+********** 10/04/2018 9:40:57 **********
+Exception Type: Source: host: localhost:44358
+Stack Trace: 
+********** 10/04/2018 9:40:57 **********
+Exception Type: Source: selfURL: /Transbank/TBKNormal
+Stack Trace: 
+********** 10/04/2018 9:40:57 **********
+Exception Type: Source: sample url: https://localhost:44358/Transbank/TBKNormal
+Stack Trace: 
+********** 10/04/2018 10:16:10 **********
+Exception Type: Source: e2a5bb3ac4da8ece0d2a5962e8f6ef9eb52a7d21083f3e0ad186faa027ca2dc5
+Stack Trace: 
+********** 10/04/2018 10:35:36 **********
+Exception Type: Source: ebc006507f81f8b6a6f60b8ba7fb473484a3ffbae259690820ec880fed2e54c8
+Stack Trace: 
+********** 10/04/2018 10:38:07 **********
+Exception Type: Source: e6d77050d40760fc1a5c5a59e82cb332130dd742657e5130e0795f1eedbbed4d
+Stack Trace: 
+********** 10/04/2018 11:06:44 **********
+Exception Type: Source: firma no existe
+Stack Trace: 
+********** 10/04/2018 11:08:53 **********
+Exception Type: Source: firma existe
+Stack Trace: 
+********** 10/04/2018 11:10:16 **********
+Exception Type: Source: firma SI  existe
+Stack Trace: 
+********** 10/04/2018 11:37:17 **********
+Exception Type: Source: firma SI  existe
+Stack Trace: 
+********** 10/04/2018 11:37:17 **********
+Exception Type: Source: Este es el full path Y:\SERVER3\dev_Importadora Santa Maria\Project Quilicura\Quilicura\Content\597020000541\597020000541.pfx
+Stack Trace: 

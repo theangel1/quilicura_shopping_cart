@@ -1,0 +1,108 @@
+********** 09/04/2018 18:37:02 **********
+Exception Type: System.IO.PathTooLongException
+Exception: La ruta de acceso especificada o el nombre de archivo (o ambos) son demasiado largos. El nombre de archivo completo debe ser inferior a 260 caracteres y el nombre del directorio debe ser inferior a 248.
+Source: TBK Normal en cs
+Stack Trace: 
+   en System.IO.Path.LegacyNormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   en System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   en System.IO.Path.GetFullPathInternal(String path)
+   en System.Security.Cryptography.X509Certificates.X509Certificate.LoadCertificateFromFile(String fileName, Object password, X509KeyStorageFlags keyStorageFlags)
+   en System.Security.Cryptography.X509Certificates.X509Certificate2..ctor(String fileName, String password)
+   en Webpay.Transbank.Library.ClientOutputFilter.ProcessMessage(SoapEnvelope envelope)
+   en Microsoft.Web.Services3.Pipeline.ProcessOutputMessage(SoapEnvelope envelope)
+   en Microsoft.Web.Services3.Xml.SoapEnvelopeWriter.Finish()
+   en Microsoft.Web.Services3.Xml.XmlWrappingWriter.Flush()
+   en System.Web.Services.Protocols.SoapHttpClientProtocol.Serialize(SoapClientMessage message)
+   en System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   en Webpay.Transbank.Library.Wsdl.Normal.WSWebpayServiceImplService.initTransaction(wsInitTransactionInput wsInitTransactionInput)
+   en Webpay.Transbank.Library.WebpayNormal.initTransaction(Decimal amount, String buyOrder, String sessionId, String urlReturn, String urlFinal)
+   en Quilicura.Transbank.TBKNormal.Page_Load(Object sender, EventArgs e) en Y:\SERVER3\dev_Importadora Santa Maria\Project Quilicura\Quilicura\Transbank\TBKNormal.aspx.cs:línea 116
+
+********** 09/04/2018 18:40:27 **********
+Inner Exception Type: System.Net.Sockets.SocketException
+Inner Exception: Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder 200.10.12.94:443
+Inner Source: System
+Inner Stack Trace: 
+   en System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   en System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+Exception Type: System.Net.WebException
+Exception: No es posible conectar con el servidor remoto
+Source: TBK Normal en cs
+Stack Trace: 
+   en System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   en System.Net.HttpWebRequest.GetRequestStream()
+   en System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   en Webpay.Transbank.Library.Wsdl.Normal.WSWebpayServiceImplService.initTransaction(wsInitTransactionInput wsInitTransactionInput)
+   en Webpay.Transbank.Library.WebpayNormal.initTransaction(Decimal amount, String buyOrder, String sessionId, String urlReturn, String urlFinal)
+   en Quilicura.Transbank.TBKNormal.Page_Load(Object sender, EventArgs e) en Y:\SERVER3\dev_Importadora Santa Maria\Project Quilicura\Quilicura\Transbank\TBKNormal.aspx.cs:línea 111
+
+********** 10/04/2018 10:35:58 **********
+Exception Type: System.Exception
+Exception: The error was unhandled by application code.
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 10/04/2018 10:40:53 **********
+Inner Exception Type: System.Security.Cryptography.CryptographicException
+Inner Exception: Acceso denegado.
+
+Inner Source: System
+Inner Stack Trace: 
+   en System.Security.Cryptography.X509Certificates.X509Store.Open(OpenFlags flags)
+   en Quilicura.ShoppingCart.Accion_Click(Object sender, EventArgs e) en Y:\SERVER3\dev_Importadora Santa Maria\Project Quilicura\Quilicura\ShoppingCart.aspx.cs:línea 118
+   en System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   en System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   en System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   en System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   en System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   en System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Exception Type: System.Web.HttpUnhandledException
+Exception: Se produjo una excepción de tipo 'System.Web.HttpUnhandledException'.
+Source: Application_Error - Global.asax
+Stack Trace: 
+   en System.Web.UI.Page.HandleError(Exception e)
+   en System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   en System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   en System.Web.UI.Page.ProcessRequest()
+   en System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   en System.Web.UI.Page.ProcessRequest(HttpContext context)
+   en ASP.shoppingcart_aspx.ProcessRequest(HttpContext context)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+********** 10/04/2018 11:04:46 **********
+Exception Type: System.Security.Cryptography.CryptographicException
+Exception: El sistema no puede encontrar el archivo especificado.
+
+Source: Catch de boton de accion
+Stack Trace: 
+   en System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   en System.Security.Cryptography.X509Certificates.X509Utils._QueryCertFileType(String fileName)
+   en System.Security.Cryptography.X509Certificates.X509Certificate.LoadCertificateFromFile(String fileName, Object password, X509KeyStorageFlags keyStorageFlags)
+   en System.Security.Cryptography.X509Certificates.X509Certificate2..ctor(String fileName, String password, X509KeyStorageFlags keyStorageFlags)
+   en Quilicura.ShoppingCart.Accion_Click(Object sender, EventArgs e) en Y:\SERVER3\dev_Importadora Santa Maria\Project Quilicura\Quilicura\ShoppingCart.aspx.cs:línea 120
+
+********** 10/04/2018 11:06:44 **********
+Exception Type: System.Security.Cryptography.CryptographicException
+Exception: El sistema no puede encontrar el archivo especificado.
+
+Source: Catch de boton de accion
+Stack Trace: 
+   en System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   en System.Security.Cryptography.X509Certificates.X509Utils._QueryCertFileType(String fileName)
+   en System.Security.Cryptography.X509Certificates.X509Certificate.LoadCertificateFromFile(String fileName, Object password, X509KeyStorageFlags keyStorageFlags)
+   en System.Security.Cryptography.X509Certificates.X509Certificate2..ctor(String fileName, String password, X509KeyStorageFlags keyStorageFlags)
+   en Quilicura.ShoppingCart.Accion_Click(Object sender, EventArgs e) en Y:\SERVER3\dev_Importadora Santa Maria\Project Quilicura\Quilicura\ShoppingCart.aspx.cs:línea 122
+
+********** 10/04/2018 11:08:53 **********
+Exception Type: System.Security.Cryptography.CryptographicException
+Exception: El sistema no puede encontrar el archivo especificado.
+
+Source: Catch de boton de accion
+Stack Trace: 
+   en System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   en System.Security.Cryptography.X509Certificates.X509Utils._QueryCertFileType(String fileName)
+   en System.Security.Cryptography.X509Certificates.X509Certificate.LoadCertificateFromFile(String fileName, Object password, X509KeyStorageFlags keyStorageFlags)
+   en System.Security.Cryptography.X509Certificates.X509Certificate2..ctor(String fileName, String password, X509KeyStorageFlags keyStorageFlags)
+   en Quilicura.ShoppingCart.Accion_Click(Object sender, EventArgs e) en Y:\SERVER3\dev_Importadora Santa Maria\Project Quilicura\Quilicura\ShoppingCart.aspx.cs:línea 122
+

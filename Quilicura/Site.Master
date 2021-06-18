@@ -1,0 +1,266 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Quilicura.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Importadora Santa María</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://www.google.com/recaptcha/api.js?onload=renderRecaptcha&render=explicit" async defer></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/devs.css" rel="stylesheet">
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="respond" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+        <!--Navbar-->
+        <!--<img src="img/logo.jpg"  class="d-inline-block align-top centered" alt="">-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="~/" runat="server">
+                <img src="img/Lg.png" width="40" alt="">
+            </a>
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active"></li>
+                        <li>
+                            <a class="nav-link" runat="server" id="adminLink" visible="false" href="Administracion/AdminPage">Administración</a>
+                        </li>
+                        <li><a runat="server" class="nav-link" href="~/">Home</a></li>
+                        <li>
+                            <a runat="server" class="nav-link" href="~/About.aspx">Nosotros</a>
+                        </li>
+                        <li>
+                            <a runat="server" class="nav-link" href="~/ProductList.aspx">Productos</a>
+                        </li>                        
+                        <li>
+                            <a runat="server" class="nav-link" href="~/Contact.aspx">Contacto</a>
+                        </li>
+                        <li>
+                            <a runat="server" class="nav-link" href="~/ShoppingCart" id="cartCount">&nbsp;</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" runat="server" id="OCLink" visible="false" href="~/Orders.aspx">Ordenes de Compra</a>
+                        </li>
+                    </ul>
+                    <!-- Right -->
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a href="https://www.facebook.com/Importadora-Santa-Maria-172631436718103/" class="nav-link" target="_blank">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://www.instagram.com/importadora_santamaria/?hl=es-la" class="nav-link waves-effect" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+
+                    </ul>
+                    <asp:LoginView runat="server" ViewStateMode="Disabled">
+                        <AnonymousTemplate>
+                            <ul class="navbar-nav ml-auto">
+                                <li><a class="nav-link" runat="server" href="~/Account/Register">Registrarse</a></li>
+                                <li><a class="nav-link" runat="server" href="~/Account/Login">Iniciar sesión</a></li>
+
+                            </ul>
+                        </AnonymousTemplate>
+                        <LoggedInTemplate>
+                            <ul class="navbar-nav ml-auto">
+                                <li><a class="nav-link" runat="server" href="~/Account/Manage" title="Configurar Cuenta">Hola, <%: Context.User.Identity.GetUserName().Substring(0, Context.User.Identity.GetUserName().IndexOf("@"))  %> !</a></li>
+                                <li>
+                                    <asp:LoginStatus class="nav-link" runat="server" LogoutAction="Redirect" LogoutText=" Cerrar sesión" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" />
+                                </li>
+                            </ul>
+                        </LoggedInTemplate>
+                    </asp:LoginView>
+                </div>
+            </div>
+        </nav>
+        <!--/.Navbar-->
+        <div id="TitleContent" style="text-align: center">
+            <a runat="server" href="~/">
+                <asp:Image ID="Image1" runat="server" ImageUrl="~/img/LOGOS-03.png" BorderStyle="None" Width="150" />
+                <asp:Image runat="server" ImageUrl="~/img/Home-Depot.jpg" Width="90" />
+            </a>
+            <br />
+        </div>
+        
+
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+
+        </div>
+    </form>
+    <footer class="footer" style="background-color: #212020;">
+
+        <!--Footer links-->
+        <div class="container">
+            <div class="row mt-4">
+                <!--First column-->
+
+                <div class="col-lg-7 col-md-4">
+                    <img src="../img/LOGOS-05.png" width="300" />
+                    <p style="color: white">
+                        Dirección: San Ignacio 801, Comuna de Quilicura<br />
+                        Horarios de Atención: Lunes a Viernes 8:30 a 18:30 hrs.<br />
+                        Sábado 9:30 a 17:30 hrs.<br />
+                        Copyright © 2018 Importadora Santa María.<br />
+                        Todos los derechos reservados.
+                    </p>
+
+                </div>
+                <!--/.First column-->
+                <hr class="w-100 clearfix d-sm-none">
+                <!--Second column-->
+                <!-- <div class="col-lg-2 col-md-6 ml-auto">
+                    <h5 class="title mb-3">
+                        <strong>First column</strong>
+                    </h5>
+                    <ul>
+                        <li>
+                            <a href="#!">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+                -->
+                <!--/.Second column-->
+                <hr class="w-100 clearfix d-sm-none">
+                <!--Third column-->
+                <!--<div class="col-lg-2 col-md-6 ml-auto">
+                    <h5 class="title mb-3">
+                        <strong>Second column</strong>
+                    </h5>
+                    <ul>
+                        <li>
+                            <a href="#!">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 4</a>
+                        </li>
+                    </ul>
+                </div> -->
+                <!--/.Third column-->
+                <hr class="w-100 clearfix d-sm-none">
+                <!--Fourth column-->
+                <div class="col-lg-3 col-md-6 ml-auto">
+                    <br />
+                    <br />
+                    <h4 style="color: white">Medios de Pago</h4>
+                    <img src="../img/webpay-456x200.png" width="311" style}="background-color:white" />
+
+                </div>
+                <!--/.Fourth column-->
+            </div>
+        </div>
+        <!--/.Footer links-->
+        <!--Social buttons-->
+        <div class="text-center">
+            <ul class="list-unstyled list-inline">
+                <li class="list-inline-item"><a href="https://www.facebook.com/Importadora-Santa-Maria-172631436718103/" class="btn-floating  btn-fb mx-1"><i class="fa fa-facebook"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.instagram.com/importadora_santamaria/?hl=es-la" class="btn-floating  btn-tw mx-1"><i class="fa fa-instagram"></i></a></li>
+                <li class="list-inline-item"><a href="mailto:info@importadorasantamaria.com" class="btn-floating  btn-tw mx-1"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+        </div>
+        <!--/.Social buttons-->
+        <!--Copyright-->
+        <div class="footer-copyright" style="background-color: black;">
+            <div class="container-fluid">
+                <p style="color: white">
+                    &copy; <%: DateTime.Now.Year %> - Sitio Web Desarrollado por
+                    <a href="https://sisgenchile.cl" style="color: #f2620e;">
+                        <b style="color: #f2620e;">SISGEN CHILE</b>
+                    </a>
+                </p>
+            </div>
+        </div>
+        <!--/.Copyright-->
+    </footer>
+    <!--/.Footer-->
+    <!-- SCRIPTS -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <!-- Bootstrap dropdown -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUCnQ92cEGt5LuzlrviAtq0Q2lSt5cPM4&callback=myMap" async defer></script>
+    <script src="js/custom.js"></script>
+    <script>
+        new WOW().init();
+
+        $(document).ready(function () {
+            $('.dropdown-toggle').dropdown();
+        });
+
+    </script>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/5abbd0204b401e45400e245f/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+</body>
+</html>
